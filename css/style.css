@@ -702,6 +702,9 @@ address{
         letter-spacing: 0.04em;
         margin-bottom: 4px;
 }
+.modal-check-icone{
+    display: inline-flex;
+}
 .modal-icon {
     fill: #2E2F42;
     position: absolute;
