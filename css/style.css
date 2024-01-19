@@ -573,6 +573,7 @@ address{
 .footer-input-icon{
     width: 24px;
     height: 24px;
+    margin-left: 16px;
     fill: #FFFFFF;
     display: inline-flex;
         align-items: center;
