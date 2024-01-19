@@ -552,7 +552,7 @@ address{
 }
 
 .footer-form-btn{
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     color: #FFF;
         text-align: center;
@@ -709,15 +709,19 @@ address{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-comment{
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
     width: 360px;
+    color: rgba(46, 47, 66, 0.4);
     height: 120px;
     border-radius: 4px;
     border: 1px solid  rgba(46, 47, 66, 0.40);
-    outline: transparent;
+    background-color: transparent;
     padding-left: 16px;
     padding-top: 8px;
     resize: none;
-    transition: bborder-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
