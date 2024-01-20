@@ -609,8 +609,7 @@ address{
 
 .modal {
     position: absolute;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 72px 24px 24px 24px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
@@ -662,7 +661,6 @@ address{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 72px;
     margin-bottom: 16px;
 }
 .modal-filt{
@@ -704,6 +702,7 @@ address{
 }
 .modal-check-icone{
     display: inline-flex;
+    margin-bottom: 24px;
 }
 .modal-icon {
     fill: #2E2F42;
@@ -782,6 +781,6 @@ address{
     display: block;
     padding: 16px 32px;
     align-items:center;
-    margin: 24px 96px;
+    margin-left: 96px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
