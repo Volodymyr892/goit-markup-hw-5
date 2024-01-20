@@ -702,7 +702,7 @@ address{
 }
 .modal-check-icone{
     display: inline-flex;
-    margin-bottom: 24px;
+    margin-right: 8px;
 }
 .modal-icon {
     fill: #2E2F42;
@@ -748,8 +748,7 @@ address{
         font-weight: 400;
         line-height: 1.17;
         letter-spacing: 0.04em;
-        display: inline-flex;
-        gap: 8px;
+        
 }
 .check-text a{
     color:  #4D5AE5;
@@ -762,7 +761,7 @@ address{
     height: 16px;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.40);
-    display:inline-flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
