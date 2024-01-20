@@ -733,6 +733,10 @@ address{
 .modal-comment:focus{
     border-color: #4D5AE5;
 }
+.modal-filt-title{
+    margin-bottom: 24px;
+
+}
 .modal-filt-comment{
     margin-bottom: 16px;
 
